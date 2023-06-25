@@ -1,0 +1,35 @@
+.containerr1 {
+  background-color: aliceblue;
+  min-height: 60px;
+  max-height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+.main-container1 {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 22px;
+  color: black;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+}
+
+.para {
+  flex-grow: 1;
+}
+.button {
+  cursor: pointer;
+}
